@@ -1,0 +1,24 @@
+{
+  "name": "password_engine",
+  "version": "1.0.0",
+  "description": "a command line app that generates passwords",
+  "main": "index.js",
+  "preferGlobal": true,
+  "bin":"./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "command",
+    "line",
+    "node",
+    "js"
+  ],
+  "author": "ibibo seleye-fubara",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "clipboardy": "^2.3.0",
+    "commander": "^8.0.0"
+  }
+}
